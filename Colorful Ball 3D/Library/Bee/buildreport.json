@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 162586476420.7,"dur": 1245331.5, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 162586497266.3,"dur": 169342.6, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 162586679708.5,"dur": 980982.8, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "08/27/2022 12:36:23",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Unity.exe\" -createproject \"C:\\Users\\13ozk\\Desktop\\Colorful Ball 3D\" -cloneFromTemplate \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Data\\Resources\\PackageManager\\ProjectTemplates\\com.unity.template.3d-8.1.0.tgz\" -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId 08d6ae70-254d-11ed-8965-f1f47e7c8c09",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Unity.exe -createproject C:\\Users\\13ozk\\Desktop\\Colorful Ball 3D -cloneFromTemplate C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Data\\Resources\\PackageManager\\ProjectTemplates\\com.unity.template.3d-8.1.0.tgz -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId 08d6ae70-254d-11ed-8965-f1f47e7c8c09",
+"meta_user_name": "13ozk",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "12"
+}
